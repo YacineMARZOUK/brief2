@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+	
+}
+.navbar{position: fixed;}
+.main{
+	width: 100%;
+	background:url(img/background.png);
+    background-size: cover;
+	height: 100vh;
+	display: flex;
+}
+.logo{
+	font-size: 40px;
+	font-family: Arial;
+	padding-left: 70px;
+	float: left;
+	padding-top: 20px;
+}
+.menu{
+	width: 400px;
+	height: 70px;
+	color: aliceblue;
+}
+.navbar ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar ul li{
+	list-style: none;
+	margin-left: 20px;
+	margin-top: 37px;
+	font-size: 14px;color: aliceblue;
+	display: flex;
+	padding-left: 50px;
+	font-size: 14px;
+}
+.navbar ul li a{
+	text-decoration:none;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+
+.navbar ul li a:hover{
+	color: #E9BD8C;
+}
+
+.title1{
+	
+display: flex;
+text-align: left;
+justify-content: center;
+flex-direction: column;
+color: #ffffff;
+margin: 70px;
+font-size: larger;
+font-family: "Sansita Swashed", system-ui;
+}
+.title1 p{
+color: #E9BD8C;
+font-weight: bold;
+}
+.title1 button{
+width: 100px;
+height: 40px ;
+background-color: #933C24;
+font-weight: 600;
+color: #ffffff;
+border-radius: 9px;
+border: none;
+cursor: pointer;
+
+}
+.title1 button:hover{
+	background-color: #672918;
+
+}
+.top{
+	text-align: center;
+	justify-content: center;
+	margin-top: 50px;
+	font-family: "Sansita Swashed", system-ui;
+}
+.bread{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.container-1{
+	background:url(img/card.png);
+	margin-top: 50px;
+	width: 360px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	padding: 15px;
+	height: 450px;
+	
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+		margin-bottom: 20px;
+
+}
+.bread p{
+	font-weight: 600;
+	color: #ffffff;
+	width: 147px;
+	height: 46px;
+	font-weight: 100;
+	font-family:'Inter', sans-serif;
+	
+}
+
+
+.dollar{
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 13px;
+	width: 48px;
+	height: 17;
+
+}
+.add button{
+	background-color: #933C24;
+	height: 47px;
+	width: 71px;
+	border: none;
+	color: #ffffff;
+	border-radius: 7px;
+	font-weight: 600px;
+	font-family:'Inter', sans-serif;
+	font-size: 17px;
+	cursor: pointer;
+
+}
+.add button:hover{
+	background-color: #672918;
+
+}
+.gride{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: space-around;
+	gap: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.reduction{
+	text-align: center;
+	justify-content: center;
+	margin-top: 50px;
+	width: 100%;
+	margin-top: 50px;
+	background: url(img/Rectangle\ 45.png);
+	background-size: cover;
+	background-position: center;
+	padding-top: 50px;
+	
+}
+.reduction h2{
+	font-family: "Sansita Swashed", system-ui;
+	color: #933C24;
+	margin-bottom: 15px;
+	
+	
+	
+
+}
+.reduction p{
+	color: #5D5D5D;
+	margin-bottom: 15px;
+}
+.reduction button{
+	background-color: #933C24;
+	height: 47px;
+	width: 130px;
+	border: none;
+	color: #ffffff;
+	border-radius: 7px;
+	font-weight: 600px;
+	font-family:'Inter', sans-serif;
+	font-size: 17px;
+	cursor: pointer;
+	margin-bottom: 50px;
+}
+
+button:hover{
+	background-color: #672918;
+}
+
+.more{
+	text-align: center;
+	font-family: "Sansita Swashed", system-ui;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	
+}
+.elements ul {
+	display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    position: relative;
+}
+.elements ul li{
+	margin: 0 15px;
+	text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom:15px ;
+    position: relative;
+}
+.cakes{
+	
+	margin-top: 50px;
+	width: 360px;
+	border-radius: 10px;
+	padding: 17px;
+	height: 450px;
+        display: flex;
+        flex-direction: column;
+		justify-content: center;
+        justify-content: space-around;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		justify-content: space-around;
+		gap: 20px;
+		margin-left: 170px;
+		margin-bottom: 350px;
+}
+.about button{
+	background-color: #933C24;
+	height: 47px;
+	width: 130px;
+	border: none;
+	color: #ffffff;
+	border-radius: 7px;
+	font-weight: 600px;
+	font-family:'Inter', sans-serif;
+	font-size: 17px;
+	cursor: pointer;
+	margin-bottom: 50px;
+}
+.about h2{
+	font-family: "Sansita Swashed", system-ui;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.about p{
+	color: #B9B9B9;
+	margin-bottom: 15px;
+}
+
+.about {
+	text-align: center;
+	justify-content: center;
+	
+	width: 100%;
+	margin-top: 50px;
+	background: url(img/about.png);
+	background-size: cover;
+	background-position: center;
+	padding-top: 50px;
+	
+}
+.about-section {
+	margin-top: 50px;
+}
+.treats{
+	text-align: center;
+	font-family: "Sansita Swashed", system-ui;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	
+}
+.featured-img{
+	margin-top: 50px;
+	margin-left: 200px;
+}
