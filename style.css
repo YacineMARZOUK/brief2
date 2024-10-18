@@ -408,6 +408,7 @@ display: flex;
 flex-direction: column;
 align-items: flex-end;
 justify-content: center;
+
 padding-right: 150px;
  
 }
@@ -419,13 +420,16 @@ padding-right: 150px;
 	color: #E9BD8D;
 	margin-top: 20px;
 padding-right: 85px;
-padding-top: 10px;
+padding-bottom: 10px;
+font-size: larger;
 
 }
 .social img{
-	gap: 20px;
-	width: 30px; 
-	height: 30px;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	width: 70px; 
+	height: 50px;
+	padding-left: 20px;
 	
 }
 .finfooter {
@@ -433,6 +437,7 @@ padding-top: 10px;
 	position: relative;
 	left: 200px;
 	height: 50px;
+	padding-top: 100px;
 
 }
 .contact{
@@ -481,6 +486,9 @@ padding-top: 10px;
 	border-bottom-left-radius: 9px;
     border: none;
     cursor: pointer;
+}
+.go button:hover{
+	background-color: #672918;
 }
 
 
